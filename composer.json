@@ -1,0 +1,32 @@
+{
+    "name": "verified-bots/verified-bots",
+    "description": "Identify verified web crawlers with IP ranges, forward-confirmed reverse DNS, or Web Bot Auth signatures.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-sodium": "*",
+        "php": "^8.2",
+        "psr/simple-cache": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5 || ^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VerifiedBots\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "VerifiedBots\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

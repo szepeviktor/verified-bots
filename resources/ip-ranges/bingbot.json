@@ -1,0 +1,7 @@
+{
+    "name": "Bingbot",
+    "userAgentSubstrings": [
+        "bingbot"
+    ],
+    "sourceUrl": "https://www.bing.com/toolbox/bingbot.json"
+}

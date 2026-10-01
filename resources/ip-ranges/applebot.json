@@ -1,0 +1,7 @@
+{
+    "name": "Applebot",
+    "userAgentSubstrings": [
+        "Applebot"
+    ],
+    "sourceUrl": "https://search.developer.apple.com/applebot.json"
+}

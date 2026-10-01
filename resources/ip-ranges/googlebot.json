@@ -1,0 +1,7 @@
+{
+    "name": "Googlebot",
+    "userAgentSubstrings": [
+        "Googlebot"
+    ],
+    "sourceUrl": "https://developers.google.com/static/crawling/ipranges/common-crawlers.json"
+}
